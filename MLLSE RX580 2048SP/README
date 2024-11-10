@@ -1,1 +1,26 @@
 
+based on mllse 2048sp vbios https://www.techpowerup.com/vgabios/263838/263838
+
+tdp increased 120w to 160w
+powertune limit %50 to %80
+tdc limit increased by 6amps
+temp limits and shutdown temps remain the same
+
+i expect the card to consume around 200w on full load instead of 150w stock value.
+make sure to use aticlock patch after flashing or you cant install drivers
+
+if you did flash and restart without ati clock patcher you will see the error code 43. in this case, go into safe mode and
+delete old drivers using ddu, restart normally and then download 24.3 drivers. once you install them go into safemode again
+and use ati clock patcher. then restart normally and continue installing amd drivers. (worked all fine for vbios modded rx 550)
+
+newest version of amd driver such as 24.10.x might not work, 24.3 is the most stable one.
+
+LESS POWER HUNGRY.ROM FILE IS A LESS POWERFUL VBIOS OF THE ONE WE TALKED ABOUT EARLIER.
+
+LESS TDP
+POWERTUNE LIMIT %75
+
+i am not responsible for any fried vrms or anything. use at your own risk.
+made by avkila.tech
+
+IF YOU NEED HELP, CONTACT ME FROM MY LINKTREE LINKS.
