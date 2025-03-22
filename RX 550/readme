@@ -1,3 +1,8 @@
 this folder includes stock and modded vbios files for rx 550
 
-I don't know what model the RX 550 is. It's my friends random card. I believe it to be 4GB.
+I don't know what model the RX 550 is. It's my friends random card. It's probably an OEM card.
+
+Lexa.rom = stock
+tdp removal.rom = tdp removed 75W unlocked card. Can push 150W if your RX 550 somehow has a 6pin connection.
+
+not responsible for any damages/blown gpus/problem engine kaputs/ fried mosfets
